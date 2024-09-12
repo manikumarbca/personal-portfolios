@@ -6,7 +6,7 @@ const Navebar = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   return (
-    <div className="nav-bar" id="nav-bar"data-aos="fade-down" data-aos-duration="1000">
+    <div className="nav-bar" id="nav-bar" data-aos="fade-down" data-aos-duration="1000">
       <div className="left-nav">
        <a href="#home-hero"><img src={logo} alt="" /></a>
       </div>
