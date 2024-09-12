@@ -1,0 +1,220 @@
+
+/*-------------Experience------------*/
+  .experience-item{
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow:var(--box-shadow);
+    margin: 20px;
+    border: 1px solid yellow;
+    background-color: #2d2d2d;
+    border-radius: 10px;
+  }
+  .experience-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .card-prabha{
+    display: flex;
+    align-items: center;
+  }
+  .ex-imgs {
+    border-radius: 10px;
+    border: 1px solid yellow;
+  }
+  .exp-img{  
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  }
+  .left{
+    width: 250px;    
+    height: 200px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+  .right{
+    padding: 10px;
+    text-align: center;
+  }  
+  .right h4{
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 7px;
+  }
+  .right .rabab-info{
+    font-size: 22px;
+    padding: 3px;
+  }
+  .right .prabha-info{
+    font-size: 20px;
+  }
+.experience h1{
+  color: rgb(245, 247, 247);
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 7%;
+}  
+  .experience-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 7%;
+  }
+
+  /*-----------Mobile Section Responsive-----------*/
+  @media screen and (max-width: 560px){
+    .left {
+      width: 190px;
+      height: 150;
+      padding: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+  }
+  .experience h1{
+    font-size: 1rem;
+  }
+    .right h4{
+      font-size: 14px;
+    }
+    .right h2{
+      font-size: 15px;
+    }
+    .prabha-info{
+      font-size: 20px;
+    }
+    .right .rabab-info{
+      font-size: 12px;
+      padding: 3px;
+    }
+    .right .prabha-info{
+      font-size: 13px;
+    }
+    .card-prabha{
+      padding: 10px;
+    }
+    .right{
+      padding: 20px;
+      margin: 10px;
+    }
+    
+    }
+
+  
+  @media screen and (max-width: 530px){
+    .left {
+      width: 160px;
+      height: 150;
+      padding: 10px 3px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+  } 
+  .experience-card{
+    display: flex;
+
+  }
+  .right{
+    padding: 20px;
+    margin: 10px;
+  }
+  .right h4{
+    font-size: 11px;
+  }
+  .right h2{
+    font-size: 11px;
+  }
+  .prabha-info{
+    font-size: 8px;
+  }
+  .right .rabab-info{
+    font-size: 12px;
+    padding: 3px;
+  }
+  .right .prabha-info{
+    font-size: 8px;
+  }
+  .right h5{
+    font-size: 8px;
+  }
+
+    .experience h1{
+      color: rgb(245, 247, 247);
+        font-weight: 600;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: -12%;
+    }  
+    
+    }
+   
+    @media screen and (max-width: 590px){
+      .left {
+        width: 160px;
+        height: 150;
+        padding: 10px 3px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    } 
+    .experience-card{
+      display: flex;
+      
+    }
+    .right{
+      padding: 2px;
+      margin: 4px;
+    }
+    .right h4{
+      font-size: 9px;
+    }
+    .right h2{
+      font-size: 10px;
+    }
+    .prabha-info{
+      font-size: 9px;
+    }
+    .right .rabab-info{
+      font-size: 8px;
+      padding: 3px;
+    }
+    .right .prabha-info{
+      font-size: 7px;
+    }
+    .right h5{
+      font-size: 10px;
+    }
+  
+      .experience h1{
+        color: rgb(245, 247, 247);
+          font-weight: 600;
+          font-size: 18px;
+          text-align: center;
+          margin-top: 15%;
+          margin-bottom: -12%;
+      }  
+      
+      }
+      @media screen and (max-width: 447px){
+.card-prabha{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+      }

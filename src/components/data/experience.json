@@ -1,0 +1,42 @@
+ [
+    {
+        "id": 1,
+        "role": " Wordpress Web Development",
+        "organisation": "Rabab It Solutions",
+        "startDate": "May, 2023",
+        "endDate": "July, 2023",
+        "location": "Shaheed Bhagat Singh Nagar, Morinda, Punjab (India)",
+        "experiences": [
+          "Worked on Wordpress Website Desinging",
+          "Worked with the Rabab It Solutions Bard Team"
+        ],
+        "imageSrc": "rabab_1.png"
+      },
+      {
+       " id": 2,
+       " role": "Android App Development",
+        "organisation": "ThinkNEXT Technologies Pvt. Ltd",
+       " startDate": "Sept, 2022",
+       " endDate": "Oct, 2022",
+       " location": "ThinkNEXT Technologies Pvt. Ltd Mohali (Chandigarh)",
+       " experiences": [
+          "Worked on Java App development"
+        ],
+
+        "imageSrc": "think_next"
+      },
+      
+      {
+        "id": 3,
+        "role": "Android App Development",
+        "organisation": "PRABHA Study & Educational Research Centre Pvt.Ltd",
+        "startDate": "Jun, 2021",
+        "endDate": "Jan, 2022",
+        "location": "Behind Army Camp-Prabhu Hospital Road- ,Panitanki-10, Birgunj, Nepal",
+        "experiences": [
+          "Worked on Microsoft Office"
+        ],
+
+        "imageSrc": "company/prabha_1"
+      }
+]

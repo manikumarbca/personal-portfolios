@@ -1,0 +1,675 @@
+.hero-secton img {
+    width: 100%;
+}
+.hero-secton {
+  align-items: center;
+  display: flex; 
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-evenly;
+  margin-top: 5px;
+}
+.hero-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+  
+  .hero-secton .left-hero {
+    background-color: rgb(109, 144, 41);
+    width: 620px;
+    padding: 30px 15px;
+    border-radius: 10px;
+    border: 4px solid #ffff4a;
+    background-color: #404f4e;
+    box-shadow: var(--box-shadow);
+  }
+  .typed-text{
+    font-size: 3rem;
+  }
+  .left-hero span{
+    color: #0ef;
+  }
+  .left-hero{
+    max-width: 600px;
+  }
+  .left-hero h3{
+    text-align: center;
+     font-size: 25px;
+     font-weight: 700;
+  }
+  .left-hero h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin: -3px 0;
+  }
+  .left-hero p{
+    font-size: 20px;
+  }
+  .hero-social a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: .5s;
+  }
+  .hero-social a:hover{
+    background: #0ef;
+    color: #000005;
+    box-shadow: 0 0 20px #0ef;
+    transform: translateY(-5px);
+  }
+  .hero-secton .right-hero .imge img {
+    height: 270px;
+    width: 270px;
+    border: 5px solid yellow;
+    border-radius: 100%;
+    animation-name: superman;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes superman {
+    0% {
+      border-color: blue;
+      transform: translate(0, 0px);
+      box-shadow: 10px 10px 100px 50px blue;
+    }
+  
+    25% {
+      border-color: rgb(239, 244, 11);
+      box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+    }
+  
+    50% {
+      border-color: rgb(12, 12, 199);
+      transform: translate(0, 10px);
+      box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+    }
+  
+    75% {
+      border-color: rgb(130, 217, 160);
+      box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+    }
+  
+    100% {
+      border-color: rgb(50, 55, 205);
+      transform: translate(0, -0px);
+      box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+    }
+  }
+
+
+  /*-----------Mobile Section Responsive-----------*/
+  @media screen and (max-width: 1100px){
+   
+     .hero-items{
+        display: flex;
+        gap: 3%;
+        margin-top: 20px;
+    }
+  }
+ 
+  @media screen and (max-width: 930px){
+   
+     .hero-items{
+        display: flex;
+        gap: 3%;
+        margin-top: -5%;
+    }
+    .left-hero h3{
+      margin-top: 5px;
+    }
+    .left-hero h1{
+      font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 901px){
+    .hero-items{
+        display: flex;
+        gap: 3%;
+        padding: 26px;
+        margin-top: 35%;
+    }
+    .left-hero h1{
+      font-size: 2rem;
+      margin-top: 5px;
+    }
+    .left-hero p{
+      font-size: 16px;
+      margin-top: 5px;
+    }
+  }
+  @media screen and (max-width: 912px){
+    .left-hero h1{
+      font-size: 1.5rem;
+      margin-top: 5px;
+    }
+    .left-hero p{
+      font-size: 11px;
+      margin-top: 5px;
+    }
+    .left-hero h3{
+      font-size: 1.3rem;
+    }
+    .hero-items{
+      display: flex;
+      gap: 3%;
+      padding: 2px;
+      margin: 50px;
+      margin-top: 20%;
+  }
+  .container{     
+  padding: 15px 7%;
+  }
+  }
+
+  @media screen and (max-width: 795px) {
+    .left-hero h1{
+      font-size: 20px;
+      margin-top: 5px;
+    }
+    .left-hero p{
+      font-size: 9px;
+      margin-top: 9px;
+    }    
+    .left-hero h3{
+      font-size: 15px;
+      margin-top: 5px;
+    }
+    
+  .hero-social a {
+    width: 38px;
+    height: 38px;
+  }  
+  .hero-heading .hero-btn{
+    margin: 11px;
+  }
+.container{     
+  padding: 18px 8%;
+}
+  
+.hero-secton .right-hero .imge img{
+  width: 200px;
+  height: 200px;
+} 
+}
+  @media screen and (max-width: 720px) {
+    .left-hero h1{
+      font-size: 0.88rem;
+      margin-top: 5px;
+    }
+    .left-hero p{
+      font-size: 13px;
+      margin-top: 9px;
+    }    
+    .left-hero h3{
+      font-size: 9px;
+      margin-top: 5px;
+    }
+     .hero-heading .hero-btn{
+      margin: 30px;
+      font-size: 10px;
+    }  
+    .hero-items{
+      display: flex;
+      gap: 3%;
+      padding: 16px; 
+        margin-top: 29%;
+      }
+    
+  .hero-secton .right-hero .imge img{
+    width: 200px;
+    height: 200px;
+  }  
+  .hero-items {
+    display: flex;
+    gap: 3%;
+    padding: 5px;
+    margin-top: 29%;
+}
+  .container{       
+  padding: 15px 10%;
+  }
+  .hero-social a {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 677px) {
+  .left-hero h1{
+    font-size: 0.88rem;
+    margin-top: 5px;
+  }
+  .left-hero p{
+    font-size: 13px;
+    margin-top: 9px;
+  }    
+  .left-hero h3{
+    font-size: 9px;
+    margin-top: 5px;
+  }
+   .hero-heading .hero-btn{
+    margin: 30px;
+    font-size: 10px;
+  }  
+  .hero-items{
+    display: flex;
+    gap: 3%;
+    padding: 16px; 
+      margin-top: 29%;
+    }
+  
+.hero-secton .right-hero .imge img{
+  width: 150px;
+  height: 100px;
+}  
+.hero-items {
+  display: flex;
+  gap: 3%;
+  padding: 5px;
+  margin-top: 29%;
+}
+.container{       
+padding: 15px 10%;
+}
+.hero-social a {
+  width: 30px;
+  height: 30px;
+}
+}
+@media screen and (max-width: 664px) {
+  .left-hero h1{
+    font-size: 0.99rem;
+    margin-top: 5px;
+  }
+  .left-hero p{
+    font-size: 12px;
+    margin-top: 9px;
+  }    
+  .left-hero h3{
+    font-size: 13px;
+    margin-top: 5px;
+  }
+   .hero-heading .hero-btn{
+    margin: 11px;
+  }  
+  .hero-items{
+    display: flex;
+    gap: 3%;
+    padding: 16px; 
+      margin-top: 29%;
+    }
+    .hero-secton .right-hero .imge img{
+      width: 150px;
+      height: 150px;
+    } 
+.hero-social a {
+  width: 29px;
+  height: 29px;
+  font-size: 1rem;
+}
+}
+    
+  @media screen and (max-width: 630px) {
+    .left-hero h1 {
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+    .left-hero p{
+      font-size: 15px;
+      margin-top: 9px;
+    }    
+    .left-hero h3{
+      font-size: 13px;
+      margin-top: 5px;
+    }
+     .hero-heading .hero-btn{
+      margin: 11px;
+    }  .hero-secton .right-hero .imge img{
+      width: 145px;
+      height: 145px;
+    }
+    .hero-items {
+      display: flex;
+      gap: 3%;
+      padding: 7px;
+  }
+  
+  .hero-social a {
+    width: 31px;
+    height: 31px;
+    font-size: 17px;
+  }
+}
+  @media screen and (max-width: 622px) {
+    .left-hero h1 {
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+    .left-hero p{
+      font-size: 15px;
+      margin-top: 9px;
+    }    
+    .left-hero h3{
+      font-size: 13px;
+      margin-top: 5px;
+    }
+     .hero-heading .hero-btn{
+      margin: 11px;
+    }  
+    .hero-secton .right-hero .imge img{
+      width: 130px;
+      height: 130px;
+    }
+    
+    .hero-secton {
+      padding: 3%;
+  }
+  .hero-items{
+    margin-top: 27%;
+  }
+}
+  @media screen and (max-width: 590px) {
+    .left-hero h1 {
+      font-size: 1rem;
+      margin-top: 5px;
+    }
+    .left-hero p{
+      font-size: 17px;
+      margin-top: 9px;
+    }    
+    .left-hero h3{
+      font-size: 13px;
+      margin-top: 5px;
+    }
+     .hero-heading .hero-btn{
+      margin: 24px;
+      font-size: 10px;
+    } 
+    .hero-secton .right-hero .imge img{
+      width: 125px;
+      height: 125px;
+    }
+  }
+  @media screen and (max-width: 586px) {
+    .hero-heading .hero-btn{
+      margin: 24px;
+      font-size: 10px;
+    }
+    .left-hero h3{
+      margin-top: 5px;
+      margin-top: 5px;
+    }
+    
+    .hero-secton .right-hero .imge img{
+      width: 120px;
+      height: 120px;
+    }
+    .hero-social a {
+      width: 30px;
+      height: 30px;
+      font-size: 17px;
+  }
+  }
+  
+  @media screen and (max-width: 575px) {
+   .hero-btn{
+      margin: 1px;
+      font-size: 1.2rem;
+
+    }
+    .left-hero h3{
+      margin-top: 5px;
+      margin-top: 5px;
+    }
+    .right-hero .imge img{
+      width: 150px;
+      height: 150px;
+    }
+    .hero-social a{
+      width: 30px;
+      height: 30px;
+      font-size: 1.2rem;
+    }    
+    
+  }
+  @media screen and (max-width: 568px) {
+    .hero-btn{
+       margin: 1px;
+       font-size: 1.2rem;
+ 
+     }
+     .left-hero h3{
+       margin-top: 5px;
+       margin-top: 5px;
+     }
+     .hero-social a{
+       width: 27px;
+       height: 27px;
+       font-size: 1.2rem;
+     }    
+     
+   }
+   @media screen and (max-width: 553px) {
+    .hero-heading .hero-btn{
+      margin: 18px;
+      font-size: 10px;
+    }
+     
+     .left-hero h3{
+       margin-top: 5px;
+       margin-top: 5px;
+     }
+     .hero-social a{
+       width: 24px;
+       height: 24px;
+       font-size: 14px;
+     }    
+     
+   }
+
+  @media screen and (max-width: 524px) {
+    .hero-items{
+      display: flex;
+      flex-direction: column;
+      gap: 3%;
+      padding: 10px 3%;
+      margin-top: 50%;
+    }
+    .hero-heading .hero-btn{
+      display: none;
+    }
+    .hero-secton .left-hero{
+      width:150%;
+    }
+    .container{      
+      padding: 15px 60px;
+    }
+    .hero-btn{
+       margin: 1px;
+       font-size: 1.2rem;
+ 
+     }
+     .left-hero h3{
+      font-size: 20px;
+     }
+     .left-hero h1{
+      font-size: 2.1rem;
+     }
+     .left-hero h3{
+       margin-top: 5px;
+       margin-top: 5px;
+     }
+     .hero-heading .hero-btn{
+      display: none;
+    }
+    .left-hero{
+      width:100%;
+    }
+     .hero-social a{
+       width: 40px;
+       height: 40px;
+       font-size: 1.4rem;
+     } 
+     .hero-secton .right-hero .imge img{
+      width: 250px;
+      height: 250px;
+    }   
+     
+   }
+  @media screen and (max-width: 490px) {
+    .hero-heading .hero-btn{
+      display: none;
+    }    
+    .hero-items{
+      display: flex;
+      flex-direction: column;
+      gap: 3%;
+      padding: 10px -30%;
+      margin-top: 80%;
+    }
+    .left-hero{
+      width:100%;
+    }
+    .left-hero h1{
+      font-size: 25px;
+     }
+     .left-hero p{
+      font-size: 14px;
+     }
+    .left-hero h3{
+      margin-top: 20px;
+      font-size: 20px;
+      margin-top: 5px;
+    }
+    
+    .hero-social a{
+      width: 50px;
+      height: 50px;
+      font-size: 2rem;
+    }    
+    .container{
+     padding: 20px -20%;
+    }
+  }
+  
+  @media screen and (max-width: 423px) {
+    .hero-heading .hero-btn{
+      display: none;
+    }    
+    .hero-items{
+      display: flex;
+      flex-direction: column;
+      gap: 3%;
+      padding: 10px -30%;
+      margin-top: 80%;
+    }
+    .left-hero{
+      width:100%;
+    }
+    .left-hero h1{
+      font-size: 25px;
+     }
+     .left-hero p{
+      font-size: 14px;
+     }
+    .left-hero h3{
+      margin-top: 20px;
+      font-size: 17px;
+      margin-top: 5px;
+    }
+    
+    .hero-social a{
+      width: 40px;
+      height: 40px;
+      font-size: 1.4rem;
+    }    
+    .container{
+     padding: 20px -20%;
+    }
+  }
+  @media screen and (max-width: 395px) {
+    .hero-heading .hero-btn{
+      display: none;
+    }    
+    .hero-items{
+      display: flex;
+      flex-direction: column;
+      gap: 3%;
+      padding: 10px -30%;
+      margin-top: 80%;
+    }
+    .left-hero{
+      width:100%;
+    }
+    .left-hero h1{
+      font-size: 22px;
+     }
+     .left-hero p{
+      font-size: 14px;
+     }
+    .left-hero h3{
+      margin-top: 17px;
+      font-size: 17px;
+      margin-top: 5px;
+    }
+    
+    .hero-social a{
+      width: 36px;
+      height: 36px;
+      font-size: 1.2rem;
+    }    
+    .container{
+     padding: 20px -20%;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .hero-heading .hero-btn{
+      display: none;
+    }    
+    .hero-items{
+      display: flex;
+      flex-direction: column;
+      gap: 3%;
+      padding: 10px -30%;
+      margin-top: 80%;
+    }
+    .left-hero{
+      width:100%;
+    }
+    .left-hero h1{
+      font-size: 21px;
+     }
+     .left-hero p{
+      font-size: 14px;
+     }
+    .left-hero h3{
+      margin-top: 17px;
+      font-size: 17px;
+      margin-top: 5px;
+    }
+    
+    .hero-social a{
+      width: 34px;
+      height: 34px;
+      font-size: 1rem;
+    }    
+    .container{
+     padding: 20px -20%;
+    }
+  }

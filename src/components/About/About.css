@@ -1,0 +1,344 @@
+
+/*--------------About------------*/
+.rows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #f7f43a;
+    margin: 2px 5%;
+    background: #404f4e;
+    border-radius: 7px;
+    box-shadow:var(--box-shadow);
+   }
+  #about{
+      padding: 80px 0;
+      color: #e5d7d7;
+  }
+  .heading{
+    text-align: center;
+    margin-top: -3%;
+    padding-bottom: 10px;
+    font-size:4rem;
+    font-weight: 600;
+      color: #fff;
+  }
+  
+  .row{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .about-col-1{
+      flex-basis: 30%;
+  }
+  .about-col-1 img{
+      width: 100%;
+      border-radius: 15px;
+    margin: 5%;
+    border: 2px solid #ffff4a;
+  }
+  .about-col-2{
+      flex-basis: 60%;
+    padding: 5%;
+  }
+  .about-col-2 h1{
+    font-size: 2rem;
+  }
+  .sub-title{
+      font-size: 60px;
+      font-weight: 600;
+      color: white;
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 3%;
+  }
+  .tab-title{
+      margin: 20px 0 40px;
+  }
+  
+  .tab-links{
+  
+    text-align: center;
+    font-size: 2.5rem;
+      font-weight: 600;
+      position: relative;
+      color: #fff;
+  }
+  .tab-links::after{
+      content: '';
+      width: 0;
+      height: 3px;
+      background: #ff004f;
+      position: absolute;
+      left: 0;
+      bottom: -8px;
+      transition: 0.5s;
+  }
+  .tab-links.active-link::after{
+      width: 50%;
+  }
+
+  /*-----------Mobile Section Responsive-----------*/
+ 
+
+  @media screen and (max-width: 970px){
+   
+  .about-col-2 p{
+    font-size: 0.6rem;
+  }
+  .tab-links h1{  
+    font-size: 2.3rem;
+  }
+  .tab-contents h3{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 5px;
+  }
+  .sub-title{
+    margin-top: 13%;
+  }
+  .heading h1{
+    text-align: center;
+    margin-top: -2%;
+    padding-bottom: 10px;
+    font-size:3rem;
+    font-weight: 600;
+      color: #fff;
+  }
+  }
+
+  
+@media screen and (max-width: 950px) {
+  
+    .about-col-2 p{
+        font-size: 11px;
+      }
+      .tab-links h1{  
+        font-size: 19px;
+      }
+      .tab-contents h3{
+        font-size: 18px;
+        font-weight: 700;
+        padding: 5px;
+      }
+      
+      .heading h1{
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 22px;
+        font-weight: 600;
+          color: #fff;
+      }
+      
+  .sub-title{
+    margin-top: -7%;
+    padding-bottom: 4px;
+  }
+}
+@media screen and (max-width: 853px) {
+ 
+    .about-col-2 p{
+        font-size: 7px;
+      }
+      .tab-links h1{  
+        font-size: 18px;
+      }
+      .tab-contents h3{
+        font-size: 12px;
+        font-weight: 700;
+        padding: 5px;
+      }
+      
+      .heading h1{
+        text-align: center;
+        margin-top: -3%;
+        padding-bottom: 10px;
+        font-size:18px;
+        font-weight: 600;
+          color: #fff;
+      }
+}
+@media screen and (max-width: 813px) {
+  
+    .about-col-2 p{
+        font-size: 0.4rem;
+      }
+      .tab-links h1{  
+        font-size: 27px;
+      }
+      .tab-contents h3{
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding: 5px;
+      }
+      
+      .heading h1{
+        text-align: center;
+        margin-top: -3%;
+        padding-bottom: 10px;
+        font-size:1.8rem;
+        font-weight: 600;
+          color: #fff;
+      }
+}
+@media screen and (max-width: 762px) {
+  
+    .about-col-2 p{
+        font-size: 6px;
+      }
+      .tab-links h1{  
+        font-size: 15px;
+      }
+      .tab-contents h3{
+        font-size: 0.7rem;
+        font-weight: 700;
+        padding: 5px;
+      }
+      
+      .heading h1{
+        text-align: center;
+        margin-top: -3%;
+        padding-bottom: 15px;
+        font-size:1rem;
+        font-weight: 600;
+          color: #fff;
+      }
+}
+@media screen and (max-width: 710px) {
+  .about-col-2 p{
+    font-size: 0.4rem;
+  }
+  .tab-links h1{    
+    font-size: 20px;
+    margin-top: -5%;
+  }
+  .tab-contents h3{
+    font-size: rem;
+    font-weight: 700;
+  }
+  
+  .heading h1{
+    text-align: center;
+    margin-top: -3%;
+    font-size:1.3rem;
+    font-weight: 600;
+      color: #fff;
+  }
+}
+
+@media screen and (max-width: 665px) {
+    .about-col-2 p{
+        font-size: 4.8px;
+        font-weight: 500;
+      }
+      .tab-links h1{    
+        font-size: 14px;
+        margin-top: -5%;
+      }
+      .tab-contents h3{
+        font-size: 8px;
+        font-weight: 700;
+      }
+      
+      .heading h1{
+        text-align: center;
+        margin-top: -3%;
+        font-size:1.1rem;
+        font-weight: 600;
+          color: #fff;
+      }
+}
+@media screen and (max-width: 619px) {
+    .about-col-2 p{
+        font-size: 0.3rem;
+      }
+      .tab-links h1{    
+        font-size: 14px;
+        margin-top: -5%;
+      }
+      .tab-contents h3{
+        font-size: 8px;
+        font-weight: 700;
+      }
+      
+      .heading h1{
+        text-align: center;
+        margin-top: -3%;
+        font-size:1rem;
+        font-weight: 600;
+          color: #fff;
+      }
+}
+@media screen and (max-width: 590px){
+.sub-title{
+  color: rgb(245, 247, 247);
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 32%;
+  margin-bottom:13%;
+}
+}
+@media screen and (max-width: 575px) {
+    .about-col-2 p{
+        font-size: 0.33rem;
+      }
+      .tab-links h1{    
+        font-size: 20px;
+        margin-top: -5%;
+      }
+      .tab-contents h3{
+        font-size: rem;
+        font-weight: 700;
+      }
+      
+      .heading h1{
+        text-align: center;
+        margin-top: -3%;
+        font-size:1.3rem;
+        font-weight: 600;
+          color: #fff;
+      }
+}
+@media screen and (max-width: 525px) {
+  .about-col-2 p{
+    font-size: 0.30rem;
+  }
+  .tab-links h1{    
+    font-size: 15px;
+    margin-top: -5%;
+  }
+  .tab-contents h3{
+    font-size:0.2rem;
+    font-weight: 700;
+  }
+  
+  .heading h1{
+    text-align: center;
+    margin-top: -3%;
+    font-size:1.5rem;
+    font-weight: 600;
+      color: #fff;
+  }
+}
+@media screen and (max-width: 494px) {
+  
+   .rows{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 30px;
+   }
+   .about-col-2 p{
+    font-size: 7px;
+  }
+  .tab-links h1{    
+    font-size: 17px;
+    margin-top: -5%;
+  }
+  .tab-contents h3{
+    font-size:0.9rem;
+    font-weight: 700;
+  }
+
+}
