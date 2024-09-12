@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div className="hero-secton" id='home-hero'>
       <div className="hero-items">
-      <div className="left-hero">
+      <div className="left-hero" data-aos="fade-left" data-aos-duration="1000">
         <h3>Hello, It's Me</h3>
         <h1>Manibhusan Prasad Sah</h1>
      <h3 className='typed-text'>And I'm a <span ref={typedRef}></span> </h3>
@@ -46,7 +46,7 @@ const Home = () => {
       <a href="#about" className="btn-box btn hero-btn">More About Me</a>
       </div>
       </div>
-      <div className="right-hero">
+      <div className="right-hero" data-aos="fade-right" data-aos-duration="1000">
         <div className="imge">
         <img src={hero_1} alt="" />
         </div>
